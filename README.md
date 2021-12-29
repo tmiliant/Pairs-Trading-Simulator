@@ -1,4 +1,4 @@
-## Pairs trading simulator viewed as part of a high frequency trading system
+# Pairs trading simulator viewed as part of a high frequency trading system
 
 In this repository I am myself implementing a simulator of the pairs trading strategy. 
 
