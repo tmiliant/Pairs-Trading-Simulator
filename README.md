@@ -1,5 +1,27 @@
-# Pairs-trading-simulator
-You can view a nice animation of the pairs trading strategy by choosing whichever parameters you wish.
+## Pairs trading simulator viewed as part of a high frequency trading system
+
+In this repository I am myself implementing a simulator of the pairs trading strategy. 
+
+The system is envisioned as being a high frequency trading system, hence I want the readers to imagine that there is an HFT system that does all the hidden work .
+
+To understand how to develop such a system, I read chapter 5 of the book 'All About High Frequency Trading?.
+
+I heavily commented each relevant line of code with the corresponding thing that happens behind the scenes.
+
+## Details about the HFT system that I envisioned when coding this
+
+At step ?i? of the animation, the exchange sends information to the listener with regards to the current prices of the stocks.
+
+The pricer calculates the ratio of the stocks, once it receives information about them from the listener.
+
+Once the new market data is sent to the traders, they can now submit orders back to the exchange by using the pairs trading strategy.
+
+The cycle continues for a finite specified number of steps in my program: Exchange -> Listener -> Pricer -> Trader -> Exchange.
+
+The latency due to the message passing between these 4 major components is assumed to be 0.
+
+
+## Details about the pairs trading strategy 
 
 The pairs trading strategy assumes that we have two reasonably highly correlated stocks.
 
@@ -9,7 +31,7 @@ When we see a peak in the ratio graph, we short on the numerator and long on the
 
 When we see a trough in the ratio graph, we long on the numerator and short on the denominator WITH THE SAME DOLLAR AMOUNT.
 
-Intuition:
+### Intuition:
     in either case, we expect to gain more from the better position than we lose from the worse position, so overall there is a profit.
 
 Why does this work?
@@ -25,3 +47,4 @@ WLOG we are in the first case:
     Net position: -m * (a1 - a0) + n * (b1 - b0) =
                 = n * b1 - m * a1 
                 > 0 because n / m = a0 / b0 > a1 / b1
+
