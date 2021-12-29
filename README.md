@@ -4,7 +4,7 @@ In this repository I am myself implementing a simulator of the pairs trading str
 
 The system is envisioned as being a high frequency trading system, hence I want the readers to imagine that there is an HFT system that does all the hidden work .
 
-To understand how to develop such a system, I read chapter 5 of the book 'All About High Frequency Trading?.
+To understand how to develop such a system, I read chapter 5 of the book 'All About High Frequency Trading'.
 
 I heavily commented each relevant line of code with the corresponding thing that happens behind the scenes.
 
