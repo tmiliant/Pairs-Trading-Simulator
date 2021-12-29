@@ -10,7 +10,7 @@ I heavily commented each relevant line of code with the corresponding thing that
 
 ## Details about the HFT system that I envisioned when coding this
 
-At step ?i? of the animation, the exchange sends information to the listener with regards to the current prices of the stocks.
+At step 'i' of the animation, the exchange sends information to the listener with regards to the current prices of the stocks.
 
 The pricer calculates the ratio of the stocks, once it receives information about them from the listener.
 
