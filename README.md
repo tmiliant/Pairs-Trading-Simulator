@@ -18,7 +18,7 @@ Once the new market data is sent to the traders, they can now submit orders back
 
 The cycle continues for a finite specified number of steps in my program: Exchange -> Listener -> Pricer -> Trader -> Exchange.
 
-The latency due to the message passing between these 4 major components is assumed to be 0.
+The latency due to the message passing between these 4 major components is assumed to be 0 in my program.
 
 
 ## Details about the pairs trading strategy 
