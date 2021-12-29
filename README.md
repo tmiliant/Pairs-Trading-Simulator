@@ -8,7 +8,7 @@ To understand how to develop such a system, I read chapter 5 of the book 'All Ab
 
 I heavily commented each relevant line of code with the corresponding thing that happens behind the scenes.
 
-## Details about the HFT system that I envisioned when coding this
+## Details about the HFT system that I envisioned when coding this - followed terminology from the book
 
 At step 'i' of the animation, the exchange sends information to the listener with regards to the current prices of the stocks.
 
