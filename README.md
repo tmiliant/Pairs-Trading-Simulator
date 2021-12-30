@@ -12,7 +12,7 @@ I heavily commented each relevant line of code with the corresponding thing that
 
 At step 'i' of the animation, the exchange sends information to the listener with regards to the current prices of the stocks.
 
-The pricer calculates the ratio of the stocks, once it receives information about them from the listener.
+The pricer calculates the ratio of the stocks, once it receives information about them from the listener. It also calculates current mean and standard deviation of the ratios seen so far.
 
 Once the new market data is sent to the traders, they can now submit orders back to the exchange by using the pairs trading strategy.
 
