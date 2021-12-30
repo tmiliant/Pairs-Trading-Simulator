@@ -50,4 +50,4 @@ WLOG we are in the first case:
 
 ## Experimenting yourself
 
-Animation can be run with parameters at your own choice, by setting the parmeters "corr", "mean", "std", and "num_points" in the main file. It is interesting to see how my strategy performs when the stocks have low correlation, such as 0.2, or even 0 correlation, although this is not supposed to happen in practice because the stock should track the etf.
+Animation can be run with parameters at your own choice, by setting the parmeters "corr", "mean", "std", and "num_points" in the main file. It is interesting to see how my strategy performs when the stocks have low correlation, such as 0.2, or even 0 correlation, although the latter is not supposed to happen in practice because the stock should track the etf.
