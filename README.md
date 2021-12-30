@@ -48,3 +48,6 @@ WLOG we are in the first case:
                 = n * b1 - m * a1 
                 > 0 because n / m = a0 / b0 > a1 / b1
 
+## Experimenting yourself
+
+Animation can be run with parameters at your own choice, by setting the parmeters "corr", "mean", "std", and "num_points" in the main file. 
