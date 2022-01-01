@@ -51,3 +51,4 @@ WLOG we are in the first case:
 ## Experimenting yourself
 
 Animation can be run with parameters at your own choice, by setting the parmeters "corr", "mean", "std", and "num_points" in the main file. It is interesting to see how my strategy performs when the stocks have low correlation, such as 0.2, or even 0 correlation, although the latter is not supposed to happen in practice because the stock should track the etf.
+This can be researched further by trying different ways of generating the stock movements: for example, allowing more oscillatory movement in the stocks, or allowing frequent timeframes of alternating increase/decrease in the trend rather than only an increasing trend.
