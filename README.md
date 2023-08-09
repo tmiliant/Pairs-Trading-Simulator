@@ -35,7 +35,7 @@ Strategy from Kaggle article:
 
 It seems that the two strategies are comparable, and I would choose mine if I were to trade mid-to-long term, and the one from the Kaggle article if I were to do a short term strategy.
 
-Note that the daily Sharpe 0.06 corresponds to roughly a yearly Sharpe of 1 (multiplying 0.06 by $\sqrt{250}$), which is a reasonable Sharpe ratio, considering that in practice 0.3-0.4 is quite good a metric both for Sharpe but also for R^2 (too-good-to-be-true measures often give a sign of look-ahead bias, which can be hidden in situations like linearly-interpolating as a way to impute data in place of NaNs!)
+
 
 -------------------
 
